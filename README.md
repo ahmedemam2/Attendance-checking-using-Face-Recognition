@@ -10,3 +10,7 @@ Modules used:
 os, 
 datetime
 
+
+In this project I detect the faces live using the webcam once a face match the faces in my file it checks their state and what time the face
+was detected.
+
