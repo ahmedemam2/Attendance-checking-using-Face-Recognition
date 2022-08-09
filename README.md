@@ -1,5 +1,8 @@
 # Attendance-checking-using-Face-Recognition
-Checking attendance along with time the person came and their state at that time.
+
+
+In this project I started my webcam using cv2 library, created a file of images of some popular people using os module, then used face_recogniton library to check if the faces in my file matched any of the faces in the current frame. Furthermore, detected the face emotion using deepface library, and the time they came through datetime module.
+
 
 Libraries Used:
 face_recognition, 
@@ -11,6 +14,5 @@ os,
 datetime
 
 
-In this project I detect the faces live using the webcam once a face match the faces in my file it checks their state and what time the face
-was detected.
+
 
